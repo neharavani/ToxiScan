@@ -1,0 +1,78 @@
+/* Modern Dark-Themed UI */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.3);
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: cyan;
+}
+
+textarea {
+    width: 90%;
+    height: 120px;
+    background: #2c2c2c;
+    border: 1px solid cyan;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+textarea:focus {
+    border-color: #00ffff;
+    box-shadow: 0 0 8px cyan;
+}
+
+button {
+    width: 90%;
+    background: cyan;
+    color: black;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00e6e6;
+    box-shadow: 0 0 10px cyan;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #2c2c2c;
+    border: 1px solid cyan;
+    width: 90%;
+    text-align: center;
+}
